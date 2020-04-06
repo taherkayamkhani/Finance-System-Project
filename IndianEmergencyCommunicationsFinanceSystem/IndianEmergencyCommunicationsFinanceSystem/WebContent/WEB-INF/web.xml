@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>IndianEmergencyCommunicationsFinanceSystem</display-name>
+  <welcome-file-list>
+    <welcome-file>demo.html</welcome-file>
+   
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>EstimationBudget</servlet-name>
+    <servlet-class>com.genesis.servlets.EstimationBudget</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EstimationBudget</servlet-name>
+    <url-pattern>/EstimationBudget</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>LoginPage</servlet-name>
+    <servlet-class>com.genesis.servlets.LoginPage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginPage</servlet-name>
+    <url-pattern>/LoginPage</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ExpensesServlet</servlet-name>
+    <servlet-class>com.genesis.servlets.ExpensesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ExpensesServlet</servlet-name>
+    <url-pattern>/ExpensesServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>BudgetCalculation</servlet-name>
+    <servlet-class>com.genesis.servlets.BudgetCalculation</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BudgetCalculation</servlet-name>
+    <url-pattern>/BudgetCalculation</url-pattern>
+  </servlet-mapping>
+  <servlet>
+   <servlet-name>ViewBudgetReport</servlet-name>
+    <servlet-class>com.genesis.servlets.ViewBudgetReport</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewBudgetReport</servlet-name>
+    <url-pattern>/ViewBudgetReport</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+   <servlet-name>RequestFund</servlet-name>
+    <servlet-class>com.genesis.servlets.RequestFund</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RequestFund</servlet-name>
+    <url-pattern>/RequestFund</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+   <servlet-name>PendingRequest</servlet-name>
+    <servlet-class>com.genesis.servlets.PendingRequest</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PendingRequest</servlet-name>
+    <url-pattern>/PendingRequest</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+   <servlet-name>GrantRequest</servlet-name>
+    <servlet-class>com.genesis.servlets.GrantRequest</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GrantRequest</servlet-name>
+    <url-pattern>/GrantRequest</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+   <servlet-name>Updates</servlet-name>
+    <servlet-class>com.genesis.servlets.Updates</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Updates</servlet-name>
+    <url-pattern>/Updates</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+   <servlet-name>SingleBudget</servlet-name>
+    <servlet-class>com.genesis.servlets.SingleBudget</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SingleBudget</servlet-name>
+    <url-pattern>/SingleBudget</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+   <servlet-name>DropdownExample</servlet-name>
+    <servlet-class>com.genesis.servlets.DropdownExample</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DropdownExample</servlet-name>
+    <url-pattern>/DropdownExample</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+   <servlet-name>DropdownList2</servlet-name>
+    <servlet-class>com.genesis.servlets.DropdownList2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DropdownList2</servlet-name>
+    <url-pattern>/DropdownList2</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+   <servlet-name>ViewEstimation</servlet-name>
+    <servlet-class>com.genesis.servlets.ViewEstimation</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewEstimation</servlet-name>
+    <url-pattern>/ViewEstimation</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+   <servlet-name>ViewStateEstimation</servlet-name>
+    <servlet-class>com.genesis.servlets.ViewStateEstimation</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewStateEstimation</servlet-name>
+    <url-pattern>/ViewStateEstimation</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  <servlet>
+   <servlet-name>EditEstimation</servlet-name>
+    <servlet-class>com.genesis.servlets.EditEstimation</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditEstimation</servlet-name>
+    <url-pattern>/EditEstimation</url-pattern>
+  </servlet-mapping>
+  <servlet>
+   <servlet-name>Logout</servlet-name>
+    <servlet-class>com.genesis.servlets.Logout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+    
+    <servlet>
+  <servlet-name>InsertExpenses</servlet-name>
+    <servlet-class>com.genesis.servlets.InsertExpenses</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InsertExpenses</servlet-name>
+    <url-pattern>/InsertExpenses</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+  <servlet-name>InsertEstimation</servlet-name>
+    <servlet-class>com.genesis.servlets.InsertEstimation</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InsertEstimation</servlet-name>
+    <url-pattern>/InsertEstimation</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>EditServlet</servlet-name>
+    <servlet-class>com.genesis.servlets.EditServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditServlet</servlet-name>
+    <url-pattern>/EditServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+</web-app>
