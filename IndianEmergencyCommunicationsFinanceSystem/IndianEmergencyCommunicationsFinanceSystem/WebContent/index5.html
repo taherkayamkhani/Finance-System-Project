@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="utf-8" />
+        <title>IndianEmergencyCommunicationsFinanceSystem</title>
+        <link href="css12/layout.css" rel="stylesheet" type="text/css" />
+        <link href="css12/menu.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body background="kk123.jpg" >
+        
+   <header>
+            <img src="iecs.JPG" width="100%" height="80px" style="position: 0px 0 0 0 ">
+            
+        </header>
+   
+       <div class="container">
+     <div class="sidebar" >  </div>
+                <ul id="nav" >
+         
+                <li><a href="javascript:replace7();"> budget Estimation</a></li>
+                    <li><a href="javascript:replace8();">  view budget Estimation</a></li>
+                <li><a class="hsubs" href="javascript:replace1();">OverAll Expenditure</a>
+                    
+                </li>
+                <li><a class="hsubs" href="javascript:replace3();">StateWise Expenditure</a>
+                    
+                </li>
+                <li><a class="hsubs" href="javascript:replace6();"> Request</a>
+                    <li><a class="hsubs" href="javascript:replace5();"> View  Updates</a>
+                </li>
+                <li><a href="javascript:replace9();">Logout</a></li>
+                
+                  <div id="lavalamp"></div>
+                  <li>      </li>
+               
+            </ul>
+ 
+       
+    
+    
+     
+        <div id="box1" class="content" hidden="true"></div>
+        <div id="box2" class="content" hidden="true"></div>
+            <div id="box3" class="content" hidden="true"></div>
+                <div id="box4" class="content" hidden="true"></div>
+                    <div id="box5" class="content" hidden="true"></div>
+                        <div id="box6" class="content" hidden="true"></div>
+                         <div id="box7" class="content" hidden="true"></div>
+                      
+                        
+<div  class="content" id="1" hidden="true">
+ <a href="javascript:replace6();" id="de" ></a>
+
+   
+   <form action="/IndianEmergencyCommunicationsFinanceSystem/PendingRequest"  id="form4	" method="get">
+
+<script type="text/javascript">
+var http = false;
+if (navigator.appName == "Microsoft Internet Explorer") {
+http = new ActiveXObject("Microsoft.XMLHTTP");
+} else {
+http = new XMLHttpRequest();
+}
+function replace6() {
+http.open("GET", "/IndianEmergencyCommunicationsFinanceSystem/PendingRequest", true);
+http.onreadystatechange=function() {
+if (http.readyState == 4) {
+	var doc=document.getElementById('box1');
+	doc.style.display = "block"
+		var doc2=document.getElementById('2');
+	doc2.style.display = "none"
+		var doc3=document.getElementById('box3');
+	doc3.style.display = "none"
+		var doc4=document.getElementById('box4');
+	doc4.style.display = "none"
+		var doc5=document.getElementById('box5');
+	doc5.style.display = "none"
+		var doc6=document.getElementById('box6');
+	doc6.style.display = "none"
+		var doc7=document.getElementById('box7');
+	doc7.style.display = "none"
+		var doc2=document.getElementById('5');
+	doc2.style.display = "none"
+		var doc2=document.getElementById('3');
+	doc2.style.display = "none"
+		var doc2=document.getElementById('4');
+	doc2.style.display = "none"
+		var doc2=document.getElementById('6');
+	doc2.style.display = "none"
+		var doc2=document.getElementById('1');
+	doc2.style.display = "none"
+		var doc2=document.getElementById('7');
+	doc2.style.display = "none"
+	
+document.getElementById('box1').innerHTML = http.responseText;
+}
+
+}
+http.send(null);
+}
+</script>
+
+</form>
+</div>
+<div  class="content" id="2" hidden="true" style="margin-left: 200px; margin-bottom: 200px">
+<a href="javascript:single();" id="de" ></a>
+<form class="form1" action="SingleBudget" method="get" id="f1">
+<br>
+<ul><br>
+<li>					
+<select name="state" id="state" required>
+                <option value="andhrapradesh">Andhra Pradesh</option>
+                <option value="bihar">Bihar</option>
+                <option value="goa">Goa</option>
+                <option value="gujrat">Gujrat</option>
+         <option value="haryana">Haryana</option>
+         <option value="jammukashmir">Jammu Kashmir</option>
+         <option value="karnataka">Karnataka</option>
+         <option value="kerala">Kerala</option>
+         <option value="madhyapradesh">Madhya Pradesh</option>
+         <option value="maharastra">Maharastra</option>
+         <option value="tamilnadu">Tamil Nadu</option>
+         <option value="punjab">Punjab</option>
+        
+         
+       
+</select>
+		</li> 
+		<li>
+				<input type="text"  id="finyear" name="finyear" class="usertext" size="15"   required pattern="[1-3	][0-9][0-9][0-9]" placeholder="Financial Year"/>
+		</li>				
+									
+			<li>	   
+				   <button type="submit" name="submit"  >
+				    	<i   class="icon-arrow-right"></i>
+				    	<span>Submit</span>
+				    </button> 
+				</li></ul>
+				</form>
+				<script type="text/javascript">
+				var http = false;
+				if (navigator.appName == "Microsoft Internet Explorer") {
+				http = new ActiveXObject("Microsoft.XMLHTTP");
+				} else {
+				http = new XMLHttpRequest();
+				}
+function single() {
+
+	var doc=document.getElementById('2');
+	doc.style.display = "block"
+		var doc1=document.getElementById('box1');
+	doc1.style.display = "none"		
+		var doc1=document.getElementById('box2');
+	doc1.style.display = "none"	
+	var doc1=document.getElementById('box3');
+	doc1.style.display = "none"	
+		var doc1=document.getElementById('box4');
+	doc1.style.display = "none"	
+		var doc1=document.getElementById('box5');
+	doc1.style.display = "none"	
+		var doc1=document.getElementById('box6');
+	doc1.style.display = "none"	
+		var doc2=document.getElementById('1');
+	doc2.style.display = "none"
+		var doc2=document.getElementById('3');
+	doc2.style.display = "none"
+		var doc2=document.getElementById('4');
+	doc2.style.display = "none"
+	 		var doc2=document.getElementById('6');
+	doc2.style.display = "none"
+		var doc7=document.getElementById('box7');
+	doc7.style.display = "none"
+		var doc2=document.getElementById('7');
+	doc2.style.display = "none"
+}
+
+
+</script>
+</div>
+<div  class="content" id="3" hidden="true" style="margin-left: 200px; margin-bottom: 200px">
+<a href="javascript:password();" id="de" ></a>
+<form class="form1" action="EstimationBudget" method="get" id="f1">
+		<br>	  
+		<ul>
+		<br><li>
+						        
+									<input type="text" id="budget" name="budget" class="usertext" size="15"   required pattern="[0-9]+.?[0-9]{0,2}" placeholder="Estimated Budget"/>
+									
+						</li><li>
+									<input type="text"  id="finyear" name="finyear" class="usertext" size="15"  required pattern="[0-9][0-9][0-9][0-9]" placeholder="Financial Year"/>
+							</li>
+	<li>
+								  <select name="state">
+                <option value="andhrapradesh">Andhra Pradesh</option>
+                <option value="bihar">Bihar</option>
+                <option value="goa">Goa</option>
+                <option value="gujrat">Gujrat</option>
+         <option value="haryana">Haryana</option>
+         <option value="jammukashmir">Jammu Kashmir</option>
+         <option value="karnataka">Karnataka</option>
+         <option value="kerala">Kerala</option>
+         <option value="madhyapradesh">Madhya Pradesh</option>
+         <option value="maharastra">Maharastra</option>
+         <option value="tamilnadu">Tamil Nadu</option>
+         <option value="punjab">Punjab</option>
+        
+         
+       
+        </select>
+		</li><li>						
+									
+				    <button type="submit" name="submit"  >
+				    	<i   class="icon-arrow-right"></i>
+				    	<span>Submit</span>
+				    </button> 
+								</li></ul>
+				</form>
+				<script type="text/javascript">
+
+function password() {
+
+	var doc=document.getElementById('3');
+	doc.style.display = "block"
+		var doc1=document.getElementById('box1');
+	doc1.style.display = "none"		
+		var doc1=document.getElementById('box2');
+	doc1.style.display = "none"	
+	var doc1=document.getElementById('box3');
+	doc1.style.display = "none"	
+		var doc1=document.getElementById('box4');
+	doc1.style.display = "none"	
+		var doc1=document.getElementById('box5');
+	doc1.style.display = "none"	
+		var doc1=document.getElementById('box6');
+	doc1.style.display = "none"	
+		var doc2=document.getElementById('1');
+	doc2.style.display = "none"
+		
+		var doc2=document.getElementById('4');
+	doc2.style.display = "none"
+		var doc2=document.getElementById('6');
+	doc2.style.display = "none"
+		var doc7=document.getElementById('box7');
+	doc7.style.display = "none"
+		var doc2=document.getElementById('7');
+	doc2.style.display = "none"
+}
+
+
+</script>
+</div>
+  
+  <div  class="content" id="3" hidden="true">
+
+      <a  href="javascript:replace5()" id="de"></a>
+      <form action="/IndianEmergencyCommunicationsFinanceSystem/Updates" class="" id="form4	" method="get">
+
+<script type="text/javascript">
+var http = false;
+if (navigator.appName == "Microsoft Internet Explorer") {
+http = new ActiveXObject("Microsoft.XMLHTTP");
+} else {
+http = new XMLHttpRequest();
+}
+function replace5() {
+http.open("GET", "/IndianEmergencyCommunicationsFinanceSystem/Updates", true);
+http.onreadystatechange=function() {
+if (http.readyState == 4) {
+	var doc=document.getElementById('box3');
+	doc.style.display = "block"
+		var doc2=document.getElementById('2');
+	doc2.style.display = "none"
+		var doc3=document.getElementById('box1');
+	doc3.style.display = "none"
+		var doc4=document.getElementById('box2');
+	doc4.style.display = "none"
+		var doc5=document.getElementById('box4');
+	doc5.style.display = "none"
+		var doc6=document.getElementById('box5');
+	doc6.style.display = "none"
+		var doc7=document.getElementById('box6');
+	doc7.style.display = "none"
+		var doc2=document.getElementById('1');
+	doc2.style.display = "none"
+		var doc2=document.getElementById('3');
+	doc2.style.display = "none"
+		var doc2=document.getElementById('4');
+	doc2.style.display = "none"
+		var doc2=document.getElementById('6');
+	doc2.style.display = "none"
+		var doc7=document.getElementById('box7');
+	doc7.style.display = "none"
+		var doc2=document.getElementById('7');
+	doc2.style.display = "none"
+document.getElementById('box3').innerHTML = http.responseText;
+}
+
+}
+http.send(null);
+}
+</script>
+
+</form>
+
+
+</div>
+  
+  <div  class="content" id="4" hidden="true">
+<form  action="/IndianEmergencyCommunicationsFinanceSystem/DropdownExample" id="form2">
+
+<script src="js/replace1.js"></script>
+
+<a href="js/replace1.js" id="de"></a>
+</form>
+
+
+</div>
+  
+  <div  class="content" id="5" hidden="true">
+<form action="/IndianEmergencyCommunicationsFinanceSystem/DropdownExample" class="form-5 clearfix" id="form1" method="get">
+ <a  href="javascript:replace3();" ></a>
+
+
+
+
+<script type="text/javascript">
+var http = false;
+if (navigator.appName == "Microsoft Internet Explorer") {
+http = new ActiveXObject("Microsoft.XMLHTTP");
+} else {
+http = new XMLHttpRequest();
+}
+function replace3() {
+http.open("GET", "/IndianEmergencyCommunicationsFinanceSystem/DropdownExample", true);
+http.onreadystatechange=function() {
+if (http.readyState == 4) {
+	var doc=document.getElementById('box4');
+	doc.style.display = "block"
+		var doc2=document.getElementById('2');
+	doc2.style.display = "none"
+		var doc3=document.getElementById('box1');
+	doc3.style.display = "none"
+		var doc4=document.getElementById('box2');
+	doc4.style.display = "none"
+		var doc5=document.getElementById('box3');
+	doc5.style.display = "none"
+		var doc6=document.getElementById('box5');
+	doc6.style.display = "none"
+		var doc7=document.getElementById('box6');
+	doc7.style.display = "none"
+		var doc7=document.getElementById('box7');
+	doc7.style.display = "none"
+		var doc2=document.getElementById('1');
+	doc2.style.display = "none"
+		var doc2=document.getElementById('3');
+	doc2.style.display = "none"
+		var doc2=document.getElementById('4');
+	doc2.style.display = "none"
+		var doc2=document.getElementById('6');
+	doc2.style.display = "none"
+		var doc7=document.getElementById('box7');
+	doc7.style.display = "none"
+		var doc2=document.getElementById('7');
+	doc2.style.display = "none"
+	
+document.getElementById('box4').innerHTML = http.responseText;
+}
+
+}
+http.send(null);
+}
+</script>
+
+
+</form>
+
+</div>
+  
+<div  class="content" id="6" hidden="true">
+ <a  href="javascript:replace7()" id="de"></a>
+      <form action="/IndianEmergencyCommunicationsFinanceSystem/DropdownList2" class="form-5 clearfix" id="form4	" method="get">
+
+<script type="text/javascript">
+var http = false;
+if (navigator.appName == "Microsoft Internet Explorer") {
+http = new ActiveXObject("Microsoft.XMLHTTP");
+} else {
+http = new XMLHttpRequest();
+}
+function replace7() {
+http.open("GET", "/IndianEmergencyCommunicationsFinanceSystem/DropdownList2", true);
+http.onreadystatechange=function() {
+if (http.readyState == 4) {
+	var doc=document.getElementById('box6');
+	doc.style.display = "block"
+		var doc2=document.getElementById('2');
+	doc2.style.display = "none"
+		var doc3=document.getElementById('box1');
+	doc3.style.display = "none"
+		var doc4=document.getElementById('box2');
+	doc4.style.display = "none"
+		var doc5=document.getElementById('box4');
+	doc5.style.display = "none"
+		var doc6=document.getElementById('box5');
+	doc6.style.display = "none"
+		var doc7=document.getElementById('box3');
+	doc7.style.display = "none"
+		var doc2=document.getElementById('1');
+	doc2.style.display = "none"
+		var doc2=document.getElementById('2');
+	doc2.style.display = "none"
+		var doc2=document.getElementById('4');
+	doc2.style.display = "none"
+		var doc2=document.getElementById('6');
+	doc2.style.display = "none"
+		var doc2=document.getElementById('7');
+	doc2.style.display = "none"
+		var doc7=document.getElementById('box7');
+	doc7.style.display = "none"
+	
+document.getElementById('box6').innerHTML = http.responseText;
+}
+
+}
+http.send(null);
+}
+</script>
+
+</form>
+
+</div>
+<div  class="content" id="7" hidden="true">
+ <a  href="javascript:replace8()" id="de"></a>
+      <form action="/IndianEmergencyCommunicationsFinanceSystem/ViewEstimation" class="form-5 clearfix" id="form4	" method="get">
+
+<script type="text/javascript">
+var http = false;
+if (navigator.appName == "Microsoft Internet Explorer") {
+http = new ActiveXObject("Microsoft.XMLHTTP");
+} else {
+http = new XMLHttpRequest();
+}
+function replace8() {
+http.open("GET", "/IndianEmergencyCommunicationsFinanceSystem/ViewEstimation", true);
+http.onreadystatechange=function() {
+if (http.readyState == 4) {
+	var doc=document.getElementById('box7');
+	doc.style.display = "block"
+		var doc2=document.getElementById('2');
+	doc2.style.display = "none"
+		var doc3=document.getElementById('box1');
+	doc3.style.display = "none"
+		var doc4=document.getElementById('box2');
+	doc4.style.display = "none"
+		var doc5=document.getElementById('box4');
+	doc5.style.display = "none"
+		var doc6=document.getElementById('box5');
+	doc6.style.display = "none"
+		var doc7=document.getElementById('box3');
+	doc7.style.display = "none"
+		var doc2=document.getElementById('1');
+	doc2.style.display = "none"
+		var doc2=document.getElementById('2');
+	doc2.style.display = "none"
+		var doc2=document.getElementById('4');
+	doc2.style.display = "none"
+		var doc2=document.getElementById('6');
+	doc2.style.display = "none"
+		var doc7=document.getElementById('box6');
+	doc7.style.display = "none"
+	
+document.getElementById('box7').innerHTML = http.responseText;
+}
+
+}
+http.send(null);
+}
+</script>
+
+</form>
+
+</div>  
+
+<div  class="content" id="7" hidden="true">
+ <a  href="javascript:replace9()" id="de"></a>
+      <form action="/IndianEmergencyCommunicationsFinanceSystem/Logout" class="form-5 clearfix" id="form4	" method="get">
+
+<script type="text/javascript">
+var http = false;
+if (navigator.appName == "Microsoft Internet Explorer") {
+http = new ActiveXObject("Microsoft.XMLHTTP");
+} else {
+http = new XMLHttpRequest();
+}
+function replace9() {
+http.open("GET", "/IndianEmergencyCommunicationsFinanceSystem/Logout", true);
+http.onreadystatechange=function() {
+if (http.readyState == 4) {
+	window.location = 'http://localhost:9090/IndianEmergencyCommunicationsFinanceSystem/Logout'
+	}
+
+}
+http.send(null);
+}
+</script>
+
+</form>
+
+</div>  
+
+
+
+</div>
+</body>
+</html>

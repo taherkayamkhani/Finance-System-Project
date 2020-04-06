@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>IndianEmergencyCommunicationsFinanceSystem</title>
+	<link rel="stylesheet" media="screen" href="styles.css" >
+	  
+</head>
+<body background="kk123.jpg">
+ <header>
+            <img src="iecs.JPG" width="100%" height="80px" style="position: 0px 0 0 0 ">
+            
+        </header>
+<form class="contact_form" action="ExpensesServlet" method="get" name="contact_form">
+ <font color="black">
+    <ul >
+    <br>
+        <li>
+             <h2>Edit Budget</h2>
+             <span class="required_notification">* Denotes Required Field</span>
+        </li>
+       
+         <li>
+          <label for="name">Quaterly:</label>
+          <select name="qtrly">
+                <option value="1">Quaterly 1</option>
+                <option value="2">Quaterly 2</option>
+                <option value="3">Quaterly 3</option>
+                <option value="4">Quaterly 4</option>
+        
+        
+         
+       
+        </select>
+        </li>
+        <li>
+            <label for="name">Salaries:</label>
+            <input type="text" name="salary" id="salary" placeholder="Salaries"  pattern="[0-9]+.?[0-9]{0,2}"/>
+         
+        </li>
+        <li>
+            <label for="name">Frienge Benefits:</label>
+            <input type="text" name="fringe" id="fringe" placeholder="frienge benefits" pattern="[0-9]+.?[0-9]{0,2}" />
+  
+        </li>
+         
+         <li>
+            <label for="name">Travel Charges:</label>
+            <input type="text" name="travel" id="travel" placeholder="Travel charges" pattern="[0-9]+.?[0-9]{0,2}"/>   
+        </li>
+         <li>
+            <label for="name">Due:</label>
+            <input type="text" name="dues" id="dues" placeholder="Due"  pattern="[0-9]+.?[0-9]{0,2}" />
+</li>
+         <li>
+            <label for="name">Supplies:</label>
+            <input type="text" name="supplies" id="supplies" placeholder="Supplies"  pattern="[0-9]+.?[0-9]{0,2}" />
+  </li>
+         <li>
+            <label for="name">Contract:</label>
+            <input type="text" name="contract" id="contract" placeholder="contract"  pattern="[0-9]+.?[0-9]{0,2}" />
+</li>
+         <li>
+            <label for="name">indirect_expenses:</label>
+            <input type="text" name="indirect" id="indirect" placeholder="indirect_expenses"  pattern="[0-9]+.?[0-9]{0,2}" />
+ </li>
+         <li>
+            <label for="name">public_educations:</label>
+            <input type="text" name="public_education" id="public_education" placeholder="public_educations"  pattern="[0-9]+.?[0-9]{0,2}" />
+     </li>
+         <li>
+            <label for="name">Equipment:</label>
+            <input type="text" name="Equipment" id="Equipment" placeholder="Equipment"  pattern="[0-9]+.?[0-9]{0,2}" />
+</li>
+         <li>
+            <label for="name">Training:</label>
+            <input type="text" name="training" id="training" placeholder="Training charges"  pattern="[0-9]+.?[0-9]{0,2}" />
+ </li>
+         
+         <li>
+            <label for="name">operations:</label>
+               <input type="text" name="opertaion" id="opertaion" placeholder="operations" pattern="[0-9]+.?[0-9]{0,2}" />
+  </li>
+        
+       
+        
+        
+        
+        
+        <li>
+        	 <a href="state.html"> <button class="submit" type="button">back</button></a> <button class="submit1" type="submit">Submit Form</button>  
+        </li>
+   <br><br>
+    </ul>
+    </font>
+</form>
+</body>
+</html>
